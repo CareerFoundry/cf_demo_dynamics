@@ -18,13 +18,13 @@ class SingleItemViewController: UIViewController {
     }
     
     func addBlueSquareView() {
-        let frame = CGRectMake(50, 70, 150, 150)
+        let frame = CGRect(x: 50, y: 70, width: 150, height: 150)
         blueSquareView.frame = frame
-        blueSquareView.backgroundColor = .blueColor()
+        blueSquareView.backgroundColor = .blue
         view.addSubview(blueSquareView)
     }
 
-    @IBAction func addBehaviorButtonTapped(sender: AnyObject) {
+    @IBAction func addBehaviorButtonTapped(_ sender: AnyObject) {
         
     }
 }
